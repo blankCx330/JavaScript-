@@ -1,0 +1,80 @@
+html{
+    background-color: cornflowerblue;
+}
+
+.background{
+    border: 2px solid deepskyblue;
+    border-radius: 8%;
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 50vw;
+    height: 80vh;
+    background-color: deepskyblue;
+}
+
+label{
+    display:block;
+    text-align: center;
+    font-size: 3vw;
+    color: #292626;
+    margin-top: 10px;
+}
+
+form{
+    height: 100%;
+    position: relative;
+}
+
+#user-input:focus{
+    outline: none;
+}
+
+#user-input:hover{
+    background-color: rgb(15, 48, 109);
+}
+
+#user-input{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 6vh;
+    font-size: 3.5vw;
+    text-align: center;
+    border: hidden;
+    border-radius: 5px;
+    background-color: rgb(0, 33, 94);
+    color: aliceblue;
+}
+
+#results-div, #results-div-cn{
+    width: 80%;
+    margin: 20px auto;
+    color: rgb(227, 230, 230);
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+.btn{
+    position: absolute;
+    margin: 0 auto;
+    width: 30vw;
+    bottom: 10%;
+    left: calc(50% - 15vw);
+    display: flex;
+    justify-content: space-between;
+}
+
+#check-btn:hover, #chear-btn:hover{
+    color: rgb(232, 234, 235);
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+#check-btn, #chear-btn{
+    font-size: 3vw;
+    border: 1px solid #0d6efd;
+    border-radius: 0.375rem;
+    background-color: #0d6efd;
+    color: rgb(232, 234, 235);
+    text-align: center;
+}
