@@ -1,0 +1,120 @@
+body{
+    background-color: rgba(5, 41, 118, 0.785);
+    color: #fff;
+    justify-items: center;
+}
+
+h1{
+    margin-top: 5px;
+    font-size: 3rem;
+    text-shadow: 
+        -2px -2px 0 rgb(17, 0, 252),
+        -2px 2px 0 rgb(17, 0, 252),
+        2px -2px 0 rgb(17, 0, 252),
+        2px 2px 0 rgb(17, 0, 252);
+}
+
+.hide{
+    display: none;
+}
+
+#change-due{
+    background-color: rgb(231, 209, 67);
+    padding: 10px;
+    border-radius: 6px;
+    color:rgb(24, 7, 121);
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-width: 20vw;
+    text-align: center;
+}
+
+#change-due > p{
+    margin: 0;
+}
+
+.input-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+#cash-label{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+#cash{
+    margin: auto;
+    height: 5vh;
+    width: 20vw;
+    font-size: 5vh;
+    text-align: center;
+
+}
+
+#purchase-btn:hover{
+    background-color: #ffd145
+}
+#purchase-btn:active{
+    background-color: #ffc107
+}
+
+#purchase-btn{
+    padding: 0.357rem 0.75rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+    border: 1px solid #ffc107;
+    border-radius: 0.375rem;
+    background-color: #ffc107;
+    max-width: 80%;
+    min-width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.price-div{
+    width: 16vw;
+    min-width: 150px;
+    height: 10vh;
+    background-color: rgb(134, 134, 134);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#price{
+    font-weight: bold;
+}
+
+#residual{
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0 rgb(13, 176, 212),
+        -1px 1px 0 rgb(13, 176, 212),
+        1px -1px 0 rgb(13, 176, 212),
+        1px 1px 0 rgb(13, 176, 212);
+    font-size: 2rem;
+}
+
+#cash-drawer-display{
+    margin: 20px;;
+    background-color: blanchedalmond;
+    color: black;
+    padding: 10px;
+    min-width: 20vw;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+
+.cash-num{
+    font-weight: bold;
+}

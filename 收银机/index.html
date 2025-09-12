@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>收银机</title>
+    <link rel="stylesheet" href = "styles.css" />
+</head>
+    <body>
+            <h1>收 银 机 项 目</h1>
+            <div id="change-due" class="hide">
+            </div>
+            <div class="input-div">
+                <label id="cash-label" for="cash">输入你的付款现金: </label>
+                <input id="cash" class="user-input" type="number" />
+                <button id="purchase-btn">购买</button>
+            </div>
+            <div class="price-div">
+                总计: <span id="price">0</span>
+            </div>
+            <div id="cash-drawer-display">
+                <div id ="residual">收银机中的余额</div>
+                <div id = "penny">Penny:<span class="cash-num">1.01</span></div>
+                <div id = "nickel">Nickel:<span class="cash-num">2.05</span></div>
+                <div id = "dime">Dime:<span class="cash-num">3.1</span></div>
+                <div id = "quarter">Quarter:<span class="cash-num">4.25</span></div>
+                <div id = "one">One:<span class="cash-num">90</span></div>
+                <div id = "five">Five:<span class="cash-num">55</span></div>
+                <div id = "ten">Ten:<span class="cash-num">20</span></div>
+                <div id = "twenty">Twenty:<span class="cash-num">60</span></div>
+                <div id = "one-hundred">OneHundred:<span class="cash-num">100</span></div>
+            </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
