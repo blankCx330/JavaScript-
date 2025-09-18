@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(52, 4, 61);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(168, 179, 189);
+    width: 85vw;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.div-input{
+    margin: 0 auto;
+}
+
+.form-input{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#search-input{
+    height: 2rem;
+    width: 60%;
+    margin-left: 8%;
+    margin-right: 2%;
+}
+
+#search-button{
+    width: 20%;
+    margin-right: 8%;
+    border-radius: 50px;
+}
+
+.label-input{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.name-span, .id-span{
+    font-weight: bold;
+}

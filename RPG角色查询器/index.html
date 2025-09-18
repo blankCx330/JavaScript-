@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG角色查询</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>角色咨询器</h1>
+    <div class="container">
+        <div class="div-input">
+            <form class="form-input">
+                <label class="label-input" for="search-input">请输入角色的 <span class="name-span">名字</span> 或 <span class="id-span">ID</span> :</label>
+                <input id="search-input" type="text" required/>
+                <button id="search-button">咨询</button>
+            </form>
+        </div>
+        <div class="name-and-id">
+            <div id="creature-name"></div>
+            <div id="creature-id"></div>
+        </div>
+        <div class="weight-and-height">
+            <p>Weight:</p><div id="weight"></div>
+            <p>Height:</p><div id="height"></div>
+        </div>
+        <div id="types"></div>
+        <div class="data">
+            <p>HP:</p><div id="hp"></div>
+            <p>Attack:</p><div id="attack"></div>
+            <p>Defense:</p><div id="defense"></div>
+            <p>Sp.Attack:</p><div id="special-attack"></div>
+            <p>Sp.Defense:</p><div id="special-defense"></div>
+            <p>Speed:</p><div id="speed"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
