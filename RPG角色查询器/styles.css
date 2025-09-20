@@ -12,6 +12,7 @@ h1{
     width: 85vw;
     margin: 0 auto;
     border-radius: 15px;
+    padding: 5vh 5vw;
 }
 
 .div-input{
@@ -28,12 +29,31 @@ h1{
     width: 60%;
     margin-left: 8%;
     margin-right: 2%;
+    font-size: 1.8rem;
+}
+
+
+#search-button:hover{
+    background-color: #d3d2cc;
+    border: 1px solid #d3d2cc;
+}
+
+#search-button:active{
+    background-color: #a7a6a1;
+    border: 1px solid #a7a6a1;
 }
 
 #search-button{
     width: 20%;
     margin-right: 8%;
     border-radius: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+    border: 1px solid #fff6dc;
+    background-color: #fff6dc;
 }
 
 .label-input{
@@ -44,4 +64,29 @@ h1{
 
 .name-span, .id-span{
     font-weight: bold;
+}
+
+.data{
+    width: 50%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 5vh 5vw;
+    border-radius: 20px;
+}
+
+.data-container{
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.data-name{
+    width: 50%;
+    font-size: 1.3rem;
+}
+
+.data-num{
+    width: 50%;
+    text-align: center;
+    font-size: 1.3rem;
 }
