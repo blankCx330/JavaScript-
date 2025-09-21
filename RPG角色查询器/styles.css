@@ -5,6 +5,7 @@ body{
 h1{
     color: white;
     text-align: center;
+    font-size: 3rem;
 }
 
 .container{
@@ -64,6 +65,47 @@ h1{
 
 .name-span, .id-span{
     font-weight: bold;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.name-and-id{
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 83.5%;
+    font-size: 1.5rem;
+}
+
+#creature-name{
+    font-weight: bold;
+}
+
+.weight-and-height{
+    display: flex;
+    margin: 0 auto;
+    width: 83.5%;
+    font-size: 1.2rem;
+}
+
+#weight, #height{
+    margin: auto 0.5rem;
+}
+
+#types-container{
+    display: flex;
+    margin: 0 auto;
+    width: 83.5%;
+}
+
+#types-container > p{
+    background-color: aliceblue; /*可能在js中获取的信息可以更改*/
+    border-radius: 10px;
+    padding: 5px;
+    margin: 2px 1px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .data{
