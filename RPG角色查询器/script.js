@@ -15,7 +15,12 @@ const hide = document.getElementById("hide");
 
 hide.style.visibility = "hidden";
 
-const data = fetch("https://rpg-creature-api.freecodecamp.rocks/api/creatures").then(response => response.json()).
-then(data =>{
-    console.log(data);
-}).catch(error => console.error("请求失败: ", error));
+//const data = fetch("https://rpg-creature-api.freecodecamp.rocks/api/creature/").then(response => response.json()).catch(error => console.error("请求失败: ", error));
+
+const fetchData = async () => {
+    try {
+        const data = fetch("https://rpg-creature-api.freecodecamp.rocks/api/creature/")
+    } catch (error) {
+        console.log(error)
+    }
+}
